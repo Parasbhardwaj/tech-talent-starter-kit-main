@@ -190,6 +190,159 @@
       }
     ],
     "projectFileMap": {
+      "ng-web-e2e": [
+        {
+          "file": "apps/ng-web-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/ng-web-e2e/cypress.config.ts",
+          "hash": "6638782532152860117",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/ng-web-e2e/project.json",
+          "hash": "109312705011776914"
+        },
+        {
+          "file": "apps/ng-web-e2e/src/e2e/app.cy.ts",
+          "hash": "12468777035711374293"
+        },
+        {
+          "file": "apps/ng-web-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/ng-web-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/ng-web-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "apps/ng-web-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/ng-web-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
+        }
+      ],
+      "ng-web": [
+        {
+          "file": "apps/ng-web/.eslintrc.json",
+          "hash": "5126944854523685422"
+        },
+        {
+          "file": "apps/ng-web/jest.config.ts",
+          "hash": "4281565390868517932"
+        },
+        {
+          "file": "apps/ng-web/project.json",
+          "hash": "4984634076214906036"
+        },
+        {
+          "file": "apps/ng-web/src/app/app.component.html",
+          "hash": "9643024975438644820"
+        },
+        {
+          "file": "apps/ng-web/src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-web/src/app/app.component.spec.ts",
+          "hash": "13501931875682591147",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-web/src/app/app.component.ts",
+          "hash": "7807293502327200074",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/material",
+            "ng-ui-components"
+          ]
+        },
+        {
+          "file": "apps/ng-web/src/app/app.config.ts",
+          "hash": "11240186051890903303",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-web/src/app/app.routes.ts",
+          "hash": "6185150965714414910",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/ng-web/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/ng-web/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/ng-web/src/index.html",
+          "hash": "5315234849111759004"
+        },
+        {
+          "file": "apps/ng-web/src/main.ts",
+          "hash": "16635586463787978962",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/ng-web/src/styles.scss",
+          "hash": "17788899824995975898"
+        },
+        {
+          "file": "apps/ng-web/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "apps/ng-web/tailwind.config.js",
+          "hash": "4616538962241029475",
+          "deps": [
+            "npm:@nx/angular",
+            "npm:path"
+          ]
+        },
+        {
+          "file": "apps/ng-web/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/ng-web/tsconfig.editor.json",
+          "hash": "17511610827034788226"
+        },
+        {
+          "file": "apps/ng-web/tsconfig.json",
+          "hash": "11271817794535700763"
+        },
+        {
+          "file": "apps/ng-web/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
       "ng-ui-components": [
         {
           "file": "libs/ng/ui/components/.eslintrc.json",
@@ -351,159 +504,6 @@
         {
           "file": "libs/ng/ui/components/tsconfig.spec.json",
           "hash": "9840611283105717156"
-        }
-      ],
-      "ng-web-e2e": [
-        {
-          "file": "apps/ng-web-e2e/.eslintrc.json",
-          "hash": "14060216369337943343"
-        },
-        {
-          "file": "apps/ng-web-e2e/cypress.config.ts",
-          "hash": "6638782532152860117",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/ng-web-e2e/project.json",
-          "hash": "109312705011776914"
-        },
-        {
-          "file": "apps/ng-web-e2e/src/e2e/app.cy.ts",
-          "hash": "12468777035711374293"
-        },
-        {
-          "file": "apps/ng-web-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "apps/ng-web-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/ng-web-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "apps/ng-web-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "apps/ng-web-e2e/tsconfig.json",
-          "hash": "4332380883180617610"
-        }
-      ],
-      "ng-web": [
-        {
-          "file": "apps/ng-web/.eslintrc.json",
-          "hash": "5126944854523685422"
-        },
-        {
-          "file": "apps/ng-web/jest.config.ts",
-          "hash": "4281565390868517932"
-        },
-        {
-          "file": "apps/ng-web/project.json",
-          "hash": "4984634076214906036"
-        },
-        {
-          "file": "apps/ng-web/src/app/app.component.html",
-          "hash": "9643024975438644820"
-        },
-        {
-          "file": "apps/ng-web/src/app/app.component.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/ng-web/src/app/app.component.spec.ts",
-          "hash": "13501931875682591147",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/ng-web/src/app/app.component.ts",
-          "hash": "7807293502327200074",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core",
-            "npm:@angular/forms",
-            "npm:@angular/material",
-            "ng-ui-components"
-          ]
-        },
-        {
-          "file": "apps/ng-web/src/app/app.config.ts",
-          "hash": "11240186051890903303",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/platform-browser",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/ng-web/src/app/app.routes.ts",
-          "hash": "6185150965714414910",
-          "deps": [
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/ng-web/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/ng-web/src/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/ng-web/src/index.html",
-          "hash": "5315234849111759004"
-        },
-        {
-          "file": "apps/ng-web/src/main.ts",
-          "hash": "16635586463787978962",
-          "deps": [
-            "npm:@angular/platform-browser"
-          ]
-        },
-        {
-          "file": "apps/ng-web/src/styles.scss",
-          "hash": "17788899824995975898"
-        },
-        {
-          "file": "apps/ng-web/src/test-setup.ts",
-          "hash": "12935735732682149507",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "apps/ng-web/tailwind.config.js",
-          "hash": "4616538962241029475",
-          "deps": [
-            "npm:@nx/angular",
-            "npm:path"
-          ]
-        },
-        {
-          "file": "apps/ng-web/tsconfig.app.json",
-          "hash": "8365644956319658761"
-        },
-        {
-          "file": "apps/ng-web/tsconfig.editor.json",
-          "hash": "17511610827034788226"
-        },
-        {
-          "file": "apps/ng-web/tsconfig.json",
-          "hash": "11271817794535700763"
-        },
-        {
-          "file": "apps/ng-web/tsconfig.spec.json",
-          "hash": "2927375835638640771"
         }
       ]
     }
