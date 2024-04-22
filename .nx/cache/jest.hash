@@ -1,0 +1,44 @@
+{
+  "2544649021955847008": {
+    "test": {
+      "command": "jest",
+      "options": {
+        "cwd": "apps/ng-web"
+      },
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "jest"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}\\coverage\\apps\\ng-web"
+      ]
+    }
+  },
+  "4818373756128034233": {
+    "test": {
+      "command": "jest",
+      "options": {
+        "cwd": "libs/ng/ui/components"
+      },
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "jest"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}\\coverage\\libs\\ng\\ui\\components"
+      ]
+    }
+  }
+}
