@@ -1,35 +1,5 @@
 {
   "nodes": {
-    "undefined": {
-      "name": "undefined",
-      "type": "lib",
-      "data": {
-        "root": ".angular/cache/17.1.4/vite/deps",
-        "targets": {
-          "lint": {
-            "cache": true,
-            "options": {
-              "cwd": ".angular/cache/17.1.4/vite/deps",
-              "command": "eslint ."
-            },
-            "inputs": [
-              "default",
-              "{workspaceRoot}/.eslintrc.json",
-              "{workspaceRoot}/tools/eslint-rules/**/*",
-              {
-                "externalDependencies": [
-                  "eslint"
-                ]
-              }
-            ],
-            "executor": "nx:run-commands",
-            "configurations": {}
-          }
-        },
-        "implicitDependencies": [],
-        "tags": []
-      }
-    },
     "ng-ui-components": {
       "name": "ng-ui-components",
       "type": "lib",
@@ -17730,7 +17700,6 @@
     }
   },
   "dependencies": {
-    "undefined": [],
     "ng-ui-components": [
       {
         "source": "ng-ui-components",

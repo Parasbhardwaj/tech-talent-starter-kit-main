@@ -15402,3 +15402,30 @@
 [NX Daemon Server] - 2024-04-22T10:59:10.177Z - Done responding to the client handleRequestFileData
 [NX Daemon Server] - 2024-04-22T10:59:10.177Z - Handled REQUEST_FILE_DATA. Handling time: 2. Response time: 2.
 [NX Daemon Server] - 2024-04-22T10:59:10.178Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-22T11:05:43.973Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-22T11:05:44.047Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-04-22T11:05:44.048Z - [WATCHER]: Stopping the watcher for c:\Users\paras\Downloads\tech-talent-starter-kit-main (sources)
+[NX Daemon Server] - 2024-04-22T11:05:44.049Z - [WATCHER]: Stopping the watcher for c:\Users\paras\Downloads\tech-talent-starter-kit-main (outputs)
+[NX Daemon Server] - 2024-04-22T11:05:44.049Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-04-22T11:05:45.818Z - Started listening on: \\.\pipe\nx\C:\Users\paras\AppData\Local\Temp\5eacd2aac2bd8aaf6a74\d.sock
+[NX Daemon Server] - 2024-04-22T11:05:45.825Z - [WATCHER]: Subscribed to changes within: c:\Users\paras\Downloads\tech-talent-starter-kit-main (native)
+[NX Daemon Server] - 2024-04-22T11:05:45.828Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-22T11:05:45.834Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-22T11:05:45.834Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-22T11:05:45.839Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-22T11:05:45.849Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-22T11:05:45.849Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-22T11:05:45.849Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-22T11:05:47.103Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-22T11:05:47.107Z - Time taken for 'total for creating and serializing project graph' 1263.9023000001907ms
+[NX Daemon Server] - 2024-04-22T11:05:47.108Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-22T11:05:47.108Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1264. Response time: 5.
+[NX Daemon Server] - 2024-04-22T11:05:47.118Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-04-22T11:05:47.118Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-04-22T11:05:47.118Z - Handled REQUEST_FILE_DATA. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-04-22T11:05:47.118Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-22T11:05:53.884Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-22T11:05:53.927Z - [WATCHER]: .gitignore was modified
+[NX Daemon Server] - 2024-04-22T11:05:53.927Z - [WATCHER]: Stopping the watcher for c:\Users\paras\Downloads\tech-talent-starter-kit-main (sources)
+[NX Daemon Server] - 2024-04-22T11:05:53.928Z - [WATCHER]: Stopping the watcher for c:\Users\paras\Downloads\tech-talent-starter-kit-main (outputs)
+[NX Daemon Server] - 2024-04-22T11:05:53.928Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
