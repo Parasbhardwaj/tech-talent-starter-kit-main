@@ -15385,3 +15385,20 @@
 [NX Daemon Server] - 2024-04-22T10:59:07.440Z - [WATCHER]: Stopping the watcher for c:\Users\paras\Downloads\tech-talent-starter-kit-main (sources)
 [NX Daemon Server] - 2024-04-22T10:59:07.440Z - [WATCHER]: Stopping the watcher for c:\Users\paras\Downloads\tech-talent-starter-kit-main (outputs)
 [NX Daemon Server] - 2024-04-22T10:59:07.440Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+[NX Daemon Server] - 2024-04-22T10:59:08.978Z - Started listening on: \\.\pipe\nx\C:\Users\paras\AppData\Local\Temp\5eacd2aac2bd8aaf6a74\d.sock
+[NX Daemon Server] - 2024-04-22T10:59:08.984Z - [WATCHER]: Subscribed to changes within: c:\Users\paras\Downloads\tech-talent-starter-kit-main (native)
+[NX Daemon Server] - 2024-04-22T10:59:08.996Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-22T10:59:08.999Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-22T10:59:09.001Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-22T10:59:09.004Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-22T10:59:09.006Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-22T10:59:09.006Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-22T10:59:09.006Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-22T10:59:10.150Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-22T10:59:10.156Z - Time taken for 'total for creating and serializing project graph' 1146.5606999993324ms
+[NX Daemon Server] - 2024-04-22T10:59:10.156Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-22T10:59:10.157Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1147. Response time: 7.
+[NX Daemon Server] - 2024-04-22T10:59:10.175Z - [REQUEST]: Responding to the client. handleRequestFileData
+[NX Daemon Server] - 2024-04-22T10:59:10.177Z - Done responding to the client handleRequestFileData
+[NX Daemon Server] - 2024-04-22T10:59:10.177Z - Handled REQUEST_FILE_DATA. Handling time: 2. Response time: 2.
+[NX Daemon Server] - 2024-04-22T10:59:10.178Z - Closed a connection. Number of open connections: 0
